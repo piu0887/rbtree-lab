@@ -33,7 +33,7 @@ void exchange_color(node_t *a, node_t *b)
     parent->left = node_right;   // 3-2) 노드의 자식을 부모의 자식으로 변경 (양방향 연결)
   }
 
-
+  //asdf
 
   // 왼쪽으로 회전하는 함수
   void left_rotate(rbtree *t, node_t *node)
